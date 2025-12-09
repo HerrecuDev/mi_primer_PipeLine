@@ -1,0 +1,25 @@
+# Crear .gitignore
+cat << EOF > .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Tests
+.pytest_cache/
+htmlcov/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
