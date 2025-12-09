@@ -19,6 +19,7 @@ def health():
         "code": 200
     })
 
+
 # Ruta de API - ejemplo de endpoint más complejo
 @app.route('/api/saludar/<nombre>')
 def saludar(nombre):
